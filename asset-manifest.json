@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/imanreact/static/css/main.d25821bf.chunk.css",
-    "main.js": "/imanreact/static/js/main.21bf148b.chunk.js",
-    "main.js.map": "/imanreact/static/js/main.21bf148b.chunk.js.map",
+    "main.css": "/imanreact/static/css/main.ff383832.chunk.css",
+    "main.js": "/imanreact/static/js/main.6ba4c57e.chunk.js",
+    "main.js.map": "/imanreact/static/js/main.6ba4c57e.chunk.js.map",
     "runtime-main.js": "/imanreact/static/js/runtime-main.f3a2cb2b.js",
     "runtime-main.js.map": "/imanreact/static/js/runtime-main.f3a2cb2b.js.map",
-    "static/js/2.47c1c841.chunk.js": "/imanreact/static/js/2.47c1c841.chunk.js",
-    "static/js/2.47c1c841.chunk.js.map": "/imanreact/static/js/2.47c1c841.chunk.js.map",
+    "static/js/2.5620f379.chunk.js": "/imanreact/static/js/2.5620f379.chunk.js",
+    "static/js/2.5620f379.chunk.js.map": "/imanreact/static/js/2.5620f379.chunk.js.map",
     "static/js/3.52e2f88a.chunk.js": "/imanreact/static/js/3.52e2f88a.chunk.js",
     "static/js/3.52e2f88a.chunk.js.map": "/imanreact/static/js/3.52e2f88a.chunk.js.map",
     "index.html": "/imanreact/index.html",
-    "static/css/main.d25821bf.chunk.css.map": "/imanreact/static/css/main.d25821bf.chunk.css.map",
-    "static/js/2.47c1c841.chunk.js.LICENSE.txt": "/imanreact/static/js/2.47c1c841.chunk.js.LICENSE.txt"
+    "static/css/main.ff383832.chunk.css.map": "/imanreact/static/css/main.ff383832.chunk.css.map",
+    "static/js/2.5620f379.chunk.js.LICENSE.txt": "/imanreact/static/js/2.5620f379.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f3a2cb2b.js",
-    "static/js/2.47c1c841.chunk.js",
-    "static/css/main.d25821bf.chunk.css",
-    "static/js/main.21bf148b.chunk.js"
+    "static/js/2.5620f379.chunk.js",
+    "static/css/main.ff383832.chunk.css",
+    "static/js/main.6ba4c57e.chunk.js"
   ]
 }
