@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/imanreact/static/css/main.0feabcc4.chunk.css",
-    "main.js": "/imanreact/static/js/main.f4c051c5.chunk.js",
-    "main.js.map": "/imanreact/static/js/main.f4c051c5.chunk.js.map",
+    "main.js": "/imanreact/static/js/main.e0e62fa8.chunk.js",
+    "main.js.map": "/imanreact/static/js/main.e0e62fa8.chunk.js.map",
     "runtime-main.js": "/imanreact/static/js/runtime-main.2c1575a4.js",
     "runtime-main.js.map": "/imanreact/static/js/runtime-main.2c1575a4.js.map",
     "static/js/2.53bd9ace.chunk.js": "/imanreact/static/js/2.53bd9ace.chunk.js",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.2c1575a4.js",
     "static/js/2.53bd9ace.chunk.js",
     "static/css/main.0feabcc4.chunk.css",
-    "static/js/main.f4c051c5.chunk.js"
+    "static/js/main.e0e62fa8.chunk.js"
   ]
 }
