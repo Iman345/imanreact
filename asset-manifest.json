@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/imanreact/static/css/main.c9c5f543.chunk.css",
-    "main.js": "/imanreact/static/js/main.c3734340.chunk.js",
-    "main.js.map": "/imanreact/static/js/main.c3734340.chunk.js.map",
-    "runtime-main.js": "/imanreact/static/js/runtime-main.de672fe3.js",
-    "runtime-main.js.map": "/imanreact/static/js/runtime-main.de672fe3.js.map",
-    "static/js/2.21e5ab4c.chunk.js": "/imanreact/static/js/2.21e5ab4c.chunk.js",
-    "static/js/2.21e5ab4c.chunk.js.map": "/imanreact/static/js/2.21e5ab4c.chunk.js.map",
-    "static/js/3.be368653.chunk.js": "/imanreact/static/js/3.be368653.chunk.js",
-    "static/js/3.be368653.chunk.js.map": "/imanreact/static/js/3.be368653.chunk.js.map",
+    "main.css": "/imanreact/static/css/main.0feabcc4.chunk.css",
+    "main.js": "/imanreact/static/js/main.f4c051c5.chunk.js",
+    "main.js.map": "/imanreact/static/js/main.f4c051c5.chunk.js.map",
+    "runtime-main.js": "/imanreact/static/js/runtime-main.2c1575a4.js",
+    "runtime-main.js.map": "/imanreact/static/js/runtime-main.2c1575a4.js.map",
+    "static/js/2.53bd9ace.chunk.js": "/imanreact/static/js/2.53bd9ace.chunk.js",
+    "static/js/2.53bd9ace.chunk.js.map": "/imanreact/static/js/2.53bd9ace.chunk.js.map",
+    "static/js/3.c251bca1.chunk.js": "/imanreact/static/js/3.c251bca1.chunk.js",
+    "static/js/3.c251bca1.chunk.js.map": "/imanreact/static/js/3.c251bca1.chunk.js.map",
     "index.html": "/imanreact/index.html",
-    "static/css/main.c9c5f543.chunk.css.map": "/imanreact/static/css/main.c9c5f543.chunk.css.map",
-    "static/js/2.21e5ab4c.chunk.js.LICENSE.txt": "/imanreact/static/js/2.21e5ab4c.chunk.js.LICENSE.txt",
+    "static/css/main.0feabcc4.chunk.css.map": "/imanreact/static/css/main.0feabcc4.chunk.css.map",
+    "static/js/2.53bd9ace.chunk.js.LICENSE.txt": "/imanreact/static/js/2.53bd9ace.chunk.js.LICENSE.txt",
     "static/media/aithree.04f23801.jpg": "/imanreact/static/media/aithree.04f23801.jpg",
     "static/media/aitweet.84223f2e.PNG": "/imanreact/static/media/aitweet.84223f2e.PNG",
     "static/media/aitwo.2f374250.PNG": "/imanreact/static/media/aitwo.2f374250.PNG",
@@ -32,9 +32,9 @@
     "static/media/whitepeople.ba01aa0d.jpg": "/imanreact/static/media/whitepeople.ba01aa0d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.de672fe3.js",
-    "static/js/2.21e5ab4c.chunk.js",
-    "static/css/main.c9c5f543.chunk.css",
-    "static/js/main.c3734340.chunk.js"
+    "static/js/runtime-main.2c1575a4.js",
+    "static/js/2.53bd9ace.chunk.js",
+    "static/css/main.0feabcc4.chunk.css",
+    "static/js/main.f4c051c5.chunk.js"
   ]
 }
