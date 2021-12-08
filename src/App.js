@@ -26,6 +26,8 @@ import Footer from './pages/footer';
 import Creativeseven from './pages/creativeseven';
 import { Gallery } from './pages/gallery';
 import Theorynine from './pages/theorynine';
+import ScrollToTop from './Components/ScrollToTop';
+
 
 
 
@@ -47,14 +49,13 @@ function App() {
 <li><Link to="theory">Theory</Link></li>
 <li><Link to="creative">Creative</Link></li>
 
-
 </div>
 </ul>
 </nav>
-
+<ScrollToTop/>
 <Routes>
-<Route exact path="/" exact element={<Home />} />
-<Route exact path="/home" exact element={<Home />} />
+<Route exact path="/" element={<Home />} />
+<Route exact path="/home" element={<Home />} />
 <Route exact path="about" element={<About />} />
 <Route exact path="theory" element={<Theory />} />
 <Route exact path="creative" element={<Creative />} />
