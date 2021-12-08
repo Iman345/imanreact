@@ -93,7 +93,7 @@
   .card:nth-child(2):before, .card:nth-child(2):after {
     --c0: hsla(0, 0%, 0%, var(--p));
     --c1: hsla(0, 0%, 0%, calc(1 - var(--p)));
-    background: repeating-linear-gradient(calc(var(--s) * 45deg), #6d9eeb 0, #6d9eeb 3px, transparent 0, transparent 13px);
+    background: repeating-linear-gradient(calc(var(--s) * 45deg), #2c2d65 0, #2c2d65 3px, transparent 0, transparent 13px);
     --m: repeating-radial-gradient(
         circle,
         var(--c0) 0,
@@ -103,26 +103,26 @@
     );
   }
   .card:nth-child(3):before, .card:nth-child(3):after {
-    background: repeating-radial-gradient(circle, #6d9eeb 0, #6d9eeb 1px, transparent 2px, transparent 7px, #6d9eeb 8px) calc(var(--p) *32px) 0/64px 64px;
+    background: repeating-radial-gradient(circle, #2c2d65 0, #2c2d65 1px, transparent 2px, transparent 7px, #2c2d65 8px) calc(var(--p) *32px) 0/64px 64px;
     --m: linear-gradient(red 100%, transparent 0) 0 calc(var(--p) *32px) /
         100% 64px;
   }
   .card:nth-child(4):before, .card:nth-child(4):after {
-    background: linear-gradient(calc(var(--s) * 30deg), transparent calc(50% - 1px), #6d9eeb 0, #6d9eeb calc(50% + 1px), transparent 0) 0 0/0.5em 0.5em;
+    background: linear-gradient(calc(var(--s) * 30deg), transparent calc(50% - 1px), #2c2d65 0, #2c2d65 calc(50% + 1px), transparent 0) 0 0/0.5em 0.5em;
     --m: linear-gradient(red 100%, transparent 0) 0 0 / 4em 4em,
         linear-gradient(90deg, red 10%, transparent 0) calc(var(--p) *2em) 0 / 4em 4em;
     -webkit-mask-composite: xor;
     mask-composite: exclude;
   }
   .card:nth-child(5):before, .card:nth-child(5):after {
-    background: radial-gradient(circle at calc(var(--p) * 100%) 50%, transparent calc(0.5em - 1px), #6d9eeb 0, #6d9eeb calc(0.5em + 1px), transparent 0) 0 0/1em 1em;
+    background: radial-gradient(circle at calc(var(--p) * 100%) 50%, transparent calc(0.5em - 1px), #2c2d65 0, #2c2d65 calc(0.5em + 1px), transparent 0) 0 0/1em 1em;
     --m: linear-gradient(red 100%, transparent 50%) 0 calc(var(--p) *1em) / 100%
         2em;
   }
   .card:nth-child(6):before, .card:nth-child(6):after {
     --c0: hsla(0, 0%, 0%, var(--p));
     --c1: hsla(0, 0%, 0%, calc(1 - var(--p)));
-    background: linear-gradient(calc(var(--s) * 150deg), transparent calc(50% - 1px), #6d9eeb 0, #6d9eeb calc(50% + 1px), transparent 0) 50%/0.75em 0.75em;
+    background: linear-gradient(calc(var(--s) * 150deg), transparent calc(50% - 1px), #2c2d65 0, #2c2d65 calc(50% + 1px), transparent 0) 50%/0.75em 0.75em;
     --m: repeating-conic-gradient(
         var(--c0) 0%,
         var(--c0) 45deg,
@@ -133,7 +133,7 @@
   .card:nth-child(7):before, .card:nth-child(7):after {
     --c0: hsla(0, 0%, 0%, var(--p));
     --c1: hsla(0, 0%, 0%, calc(1 - var(--p)));
-    background: linear-gradient(calc(var(--s) * 45deg), transparent calc(50% - 1px), #6d9eeb 0, #6d9eeb calc(50% + 1px), transparent 0) 50%/1em 1em;
+    background: linear-gradient(calc(var(--s) * 45deg), transparent calc(50% - 1px), #2c2d65 0, #2c2d65 calc(50% + 1px), transparent 0) 50%/1em 1em;
     --m: repeating-conic-gradient(
         var(--c0) 0%,
         var(--c0) 22.5deg,
@@ -144,7 +144,7 @@
   .card:nth-child(8):before, .card:nth-child(8):after {
     --c0: hsla(0, 0%, 0%, var(--p));
     --c1: hsla(0, 0%, 0%, calc(1 - var(--p)));
-    background: linear-gradient(calc(var(--p) * 45deg), #6d9eeb 1px, transparent 0, transparent calc(100% - 1px), #6d9eeb 0) 50% 50%/0.35355em 0.35355em;
+    background: linear-gradient(calc(var(--p) * 45deg), #2c2d65 1px, transparent 0, transparent calc(100% - 1px), #2c2d65 0) 50% 50%/0.35355em 0.35355em;
     --m: repeating-linear-gradient(
             45deg,
             red 0,
@@ -186,7 +186,7 @@
   .card:nth-child(10):before, .card:nth-child(10):after {
     --c0: hsla(0, 0%, 0%, var(--p));
     --c1: hsla(0, 0%, 0%, calc(1 - var(--p)));
-    background: linear-gradient(calc(var(--p) * 90deg), #6d9eeb 1px, transparent 0, transparent calc(100% - 1px), #6d9eeb 0) 50% 50%/0.14142em 0.14142em;
+    background: linear-gradient(calc(var(--p) * 90deg), #2c2d65 1px, transparent 0, transparent calc(100% - 1px), #2c2d65 0) 50% 50%/0.14142em 0.14142em;
     --m: repeating-linear-gradient(
             45deg,
             red 0,
@@ -229,22 +229,22 @@
     mask-composite: exclude;
   }
   .card:nth-child(12):before, .card:nth-child(12):after {
-    background:  #2c2d65;
-  background-image:
-  linear-gradient(67.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(157.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(67.5deg, transparent 90%, #6d9eeb 90%),
-  linear-gradient(157.5deg, transparent 90%, #6d9eeb 90%),
-    
-  linear-gradient(22.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(112.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(22.5deg, transparent 90%, #6d9eeb 90%),
-  linear-gradient(112.5deg, transparent 90%, #6d9eeb 90%),
   
-  linear-gradient(22.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-  linear-gradient(-22.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-  linear-gradient(112.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-  linear-gradient(-112.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%);
+  background-image:
+  linear-gradient(67.5deg, #2c2d65 10%, transparent 10%),
+  linear-gradient(157.5deg, #2c2d65 10%, transparent 10%),
+  linear-gradient(67.5deg, transparent 90%, #2c2d65 90%),
+  linear-gradient(157.5deg, transparent 90%, #2c2d65 90%),
+    
+  linear-gradient(22.5deg, #2c2d65 10%, transparent 10%),
+  linear-gradient(112.5deg, #2c2d65 10%, transparent 10%),
+  linear-gradient(22.5deg, transparent 90%, #2c2d65 90%),
+  linear-gradient(112.5deg, transparent 90%, #2c2d65 90%),
+  
+  linear-gradient(22.5deg, transparent 33%, #2c2d65 33%, #2c2d65 36%, transparent 36%, transparent 64%, #2c2d65 64%, #2c2d65 67%, transparent 67%),
+  linear-gradient(-22.5deg, transparent 33%, #2c2d65 33%, #2c2d65 36%, transparent 36%, transparent 64%, #2c2d65 64%, #2c2d65 67%, transparent 67%),
+  linear-gradient(112.5deg, transparent 33%, #2c2d65 33%, #2c2d65 36%, transparent 36%, transparent 64%, #2c2d65 64%, #2c2d65 67%, transparent 67%),
+  linear-gradient(-112.5deg, transparent 33%, #2c2d65 33%, #2c2d65 36%, transparent 36%, transparent 64%, #2c2d65 64%, #2c2d65 67%, transparent 67%);
  
   background-size: 20px 20px;
   background-position: 
@@ -256,100 +256,41 @@
 
 .card:nth-child(13):before, .card:nth-child(13):after {
     
-    background:  #033b83;
-    background-image:
-    linear-gradient(67.5deg, #6d9eeb 10%, transparent 10%),
-    linear-gradient(157.5deg, #6d9eeb 10%, transparent 10%),
-    linear-gradient(67.5deg, transparent 90%, #6d9eeb 90%),
-    linear-gradient(157.5deg, transparent 90%, #6d9eeb 90%),
-      
-    linear-gradient(22.5deg, #6d9eeb 10%, transparent 10%),
-    linear-gradient(112.5deg, #6d9eeb 10%, transparent 10%),
-    linear-gradient(22.5deg, transparent 90%, #6d9eeb 90%),
-    linear-gradient(112.5deg, transparent 90%, #6d9eeb 90%),
-    
-    linear-gradient(22.5deg, transparent 63%, #d5d8dc 6%, #d5d8dc 60%, transparent 16%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(-22.5deg, transparent 63%, #d5d8dc 60%, #d5d8dc 60%, transparent 16%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(112.5deg, transparent 63%, #d5d8dc 60%, #d5d8dc 60%, transparent 16%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(-112.5deg, transparent 63%, #d5d8dc 60%, #d5d8dc 60%, transparent 36%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%);
-   
-    background-size: 15px 15px;
-    background-position: 
-      -100px 150px, -150px 150px, -150px 100px, -100px 100px,
-      -150px 100px, -100px 100px, -100px 150px, -150px 150px,
-      1 1, 5 5, 2 2, 2 5;
+  background-image: linear-gradient(45deg,#2c2d65 33%,transparent 33%,transparent 66%,#2c2d65 66%),linear-gradient(135deg,#2c2d65 33%,transparent 33%,transparent 66%,#2c2d65 66%);
+  background-size:40px 40px;
+
+  width:100%;
+ 
   }
 
   .card:nth-child(14):before, .card:nth-child(14):after {
     
-    background:  #2c2d65;
-    background-image:
-    linear-gradient(67.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(157.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(67.5deg, transparent 90%, #6d9eeb 90%),
-  linear-gradient(157.5deg, transparent 90%, #6d9eeb 90%),
-  linear-gradient(22.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(112.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(22.5deg, transparent 90%, #6d9eeb 90%),
-  linear-gradient(112.5deg, transparent 90%, #6d9eeb 90%);
-  
-    
-    background-size: 20px 20px;
-    background-position: 
-      -100px 150px, -150px 150px, -150px 100px, -100px 100px,
-      -150px 100px, -100px 100px, -100px 150px, -150px 150px,
-      0 0, 0 0, 0 0, 0 0;
+    background-image: linear-gradient(25deg, transparent 65%, #2c2d65, transparent 70%), linear-gradient(-25deg, transparent 65%, #2c2d65, transparent 70%), linear-gradient(-25deg, transparent 30%, #2c2d65, transparent 35%), linear-gradient(25deg, transparent 30%, #2c2d65, transparent 35%), linear-gradient(65deg, transparent 65%, #2c2d65, transparent 70%), linear-gradient(-65deg, transparent 65%, #2c2d65, transparent 70%), linear-gradient(-65deg, transparent 30%, #2c2d65, transparent 35%), linear-gradient(65deg, transparent 30%, #2c2d65, transparent 35%);
+  background-size: 5em 2em, 5em 2em, 5em 2em, 5em 2em, 2em 5em, 2em 5em, 2em 5em, 2em 5em;
+
   }
 
   .card:nth-child(15):before, .card:nth-child(15):after {
     
-    background:  #2c2d65;
-    background-image:
-    linear-gradient(67.5deg, #6d9eeb 10%, transparent 10%),
-    linear-gradient(157.5deg, #6d9eeb 10%, transparent 10%),
-    linear-gradient(67.5deg, transparent 90%, #6d9eeb 90%),
-    linear-gradient(157.5deg, transparent 90%, #6d9eeb 90%),
-      
-    linear-gradient(22.5deg, transparent 63%, #d5d8dc 6%, #d5d8dc 60%, transparent 16%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(-22.5deg, transparent 63%, #d5d8dc 60%, #d5d8dc 60%, transparent 16%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(112.5deg, transparent 63%, #d5d8dc 60%, #d5d8dc 60%, transparent 16%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(-112.5deg, transparent 63%, #d5d8dc 60%, #d5d8dc 60%, transparent 36%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%);
-   
-    background-size: 20px 20px;
-    background-position: 
-      -100px 150px, -150px 150px, -150px 100px, -100px 100px,
-      -150px 100px, -100px 100px, -100px 150px, -150px 150px,
-      0 0, 0 0, 0 0, 0 0;
+    background-image: radial-gradient(closest-side, transparent 98%, #2c2d65 99%),
+radial-gradient(closest-side, transparent 98%, #2c2d65 99%);
+background-size:80px 80px;
+background-position:0 0, 40px 40px;
   }
 
   .card:nth-child(16):before, .card:nth-child(16):after {
-    background:  #2c2d65;
-  background-image:
-  linear-gradient(22.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(112.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(22.5deg, transparent 90%, #6d9eeb 90%),
-  linear-gradient(112.5deg, transparent 90%, #6d9eeb 90%),
-    
-  linear-gradient(67.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(157.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(67.5deg, transparent 90%, #6d9eeb 90%),
-  linear-gradient(157.5deg, transparent 90%, #6d9eeb 90%),
-  
-  linear-gradient(22.5deg, transparent 63%, #d5d8dc 6%, #d5d8dc 60%, transparent 16%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(-22.5deg, transparent 63%, #d5d8dc 60%, #d5d8dc 60%, transparent 16%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(112.5deg, transparent 63%, #d5d8dc 60%, #d5d8dc 60%, transparent 16%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-    linear-gradient(-112.5deg, transparent 63%, #d5d8dc 60%, #d5d8dc 60%, transparent 36%, transparent 84%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%);
    
-  background-size: 15px 15px;
-  background-position: 
-    -100px 150px, -150px 150px, -150px 100px, -100px 100px,
-    -150px 100px, -100px 100px, -100px 150px, -150px 150px,
-    0 0, 0 0, 0 0, 0 0;
+    background-image:
+    radial-gradient(midnightblue 9px, transparent 10px),
+    repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);
+    background-size: 30px 30px, 90px 90px;
+    background-position: 0 0;
+
 }
 .card:nth-child(17):before, .card:nth-child(17):after {
   --c0: hsla(0, 0%, 0%, var(--p));
   --c1: hsla(0, 0%, 0%, calc(5 - var(--p)));
-  background: linear-gradient(calc(var(--s) * 45deg), transparent calc(50% - 1px), #6d9eeb 0, #6d9eeb calc(50% + 5px), transparent 0) 50%/1em 1em;
+  background: linear-gradient(calc(var(--s) * 45deg), transparent calc(50% - 1px), #2c2d65 0, #2c2d65 calc(50% + 5px), transparent 0) 50%/1em 1em;
   --m: repeating-conic-gradient(
       var(--c0) 0%,
       var(--c0) 1.5deg,
@@ -382,7 +323,7 @@ card:nth-child(18):before, .card:nth-child(18):after {
 }
   
 .card:nth-child(19):before, .card:nth-child(19):after {
-  background: repeating-radial-gradient(circle, #6d9eeb 0, #6d9eeb 1px, transparent 2px, transparent 7px, #6d9eeb 8px) calc(var(--p) *32px) 0/25px 110px;
+  background: repeating-radial-gradient(circle, #2c2d65 0, #2c2d65 1px, transparent 2px, transparent 7px, #2c2d65 8px) calc(var(--p) *32px) 0/25px 110px;
   --m: linear-gradient(red 100%, transparent 0) 0 calc(var(--p) *32px) /
       100% 64px;
 }
@@ -392,15 +333,15 @@ card:nth-child(18):before, .card:nth-child(18):after {
   background-image:
 
     
-  linear-gradient(22.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(112.5deg, #6d9eeb 10%, transparent 10%),
-  linear-gradient(22.5deg, transparent 90%, #6d9eeb 90%),
-  linear-gradient(112.5deg, transparent 90%, #6d9eeb 90%),
+  linear-gradient(22.5deg, #2c2d65 10%, transparent 10%),
+  linear-gradient(112.5deg, #2c2d65 10%, transparent 10%),
+  linear-gradient(22.5deg, transparent 90%, #2c2d65 90%),
+  linear-gradient(112.5deg, transparent 90%, #2c2d65 90%),
   
-  linear-gradient(25deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-  linear-gradient(-29.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-  linear-gradient(118.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%),
-  linear-gradient(-119.5deg, transparent 33%, #d5d8dc 33%, #d5d8dc 36%, transparent 36%, transparent 64%, #d5d8dc 64%, #d5d8dc 67%, transparent 67%);
+  linear-gradient(25deg, transparent 33%, #2c2d65 33%, #2c2d65 36%, transparent 36%, transparent 64%, #2c2d65 64%, #2c2d65 67%, transparent 67%),
+  linear-gradient(-29.5deg, transparent 33%, #2c2d65 33%, #2c2d65 36%, transparent 36%, transparent 64%, #2c2d65 64%, #2c2d65 67%, transparent 67%),
+  linear-gradient(118.5deg, transparent 33%, #2c2d65 33%, #2c2d65 36%, transparent 36%, transparent 64%, #2c2d65 64%, #2c2d65 67%, transparent 67%),
+  linear-gradient(-119.5deg, transparent 33%, #2c2d65 33%, #2c2d65 36%, transparent 36%, transparent 64%, #2c2d65 64%, #2c2d65 67%, transparent 67%);
  
   background-size: 50px 50px;
   background-position: 
@@ -408,15 +349,100 @@ card:nth-child(18):before, .card:nth-child(18):after {
     -150px 100px, -100px 100px, -100px 150px, -150px 150px,
      0, 0 0, 0 0, 0 0;
 }
+.card:nth-child(21):before, .card:nth-child(21):after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill-rule='evenodd'%3E%3Cg  fill='%232c2d65'  fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M29 58.58l7.38-7.39A30.95 30.95 0 0 1 29 37.84a30.95 30.95 0 0 1-7.38 13.36l7.37 7.38zm1.4 1.41l.01.01h-2.84l-7.37-7.38A30.95 30.95 0 0 1 6.84 60H0v-1.02a28.9 28.9 0 0 0 18.79-7.78L0 32.41v-4.84L18.78 8.79A28.9 28.9 0 0 0 0 1.02V0h6.84a30.95 30.95 0 0 1 13.35 7.38L27.57 0h2.84l7.39 7.38A30.95 30.95 0 0 1 51.16 0H60v27.58-.01V60h-8.84a30.95 30.95 0 0 1-13.37-7.4L30.4 60zM29 1.41l-7.4 7.38A30.95 30.95 0 0 1 29 22.16 30.95 30.95 0 0 1 36.38 8.8L29 1.4zM58 1A28.9 28.9 0 0 0 39.2 8.8L58 27.58V1.02zm-20.2 9.2A28.9 28.9 0 0 0 30.02 29h26.56L37.8 10.21zM30.02 31a28.9 28.9 0 0 0 7.77 18.79l18.79-18.79H30.02zm9.18 20.2A28.9 28.9 0 0 0 58 59V32.4L39.2 51.19zm-19-1.4a28.9 28.9 0 0 0 7.78-18.8H1.41l18.8 18.8zm7.78-20.8A28.9 28.9 0 0 0 20.2 10.2L1.41 29h26.57z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  
 
 
-.light {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image: radial-gradient(
-      circle,
-      transparent 160px,
-      rgba(0, 0, 0, 0.85) 200px
-  );
 }
+.card:nth-child(22):before, .card:nth-child(22):after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons'  fill='%232c2d65'  fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+
+}
+.card:nth-child(23):before, .card:nth-child(23):after {
+  background-image: url("data:image/svg+xml,%3Csvg width='84' height='84' viewBox='0 0 84 84' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg  fill='%232c2d65'  fill-opacity='0.4'%3E%3Cpath d='M84 23c-4.417 0-8-3.584-8-7.998V8h-7.002C64.58 8 61 4.42 61 0H23c0 4.417-3.584 8-7.998 8H8v7.002C8 19.42 4.42 23 0 23v38c4.417 0 8 3.584 8 7.998V76h7.002C19.42 76 23 79.58 23 84h38c0-4.417 3.584-8 7.998-8H76v-7.002C76 64.58 79.58 61 84 61V23zM59.05 83H43V66.95c5.054-.5 9-4.764 9-9.948V52h5.002c5.18 0 9.446-3.947 9.95-9H83v16.05c-5.054.5-9 4.764-9 9.948V74h-5.002c-5.18 0-9.446 3.947-9.95 9zm-34.1 0H41V66.95c-5.053-.502-9-4.768-9-9.948V52h-5.002c-5.184 0-9.447-3.946-9.95-9H1v16.05c5.053.502 9 4.768 9 9.948V74h5.002c5.184 0 9.447 3.946 9.95 9zm0-82H41v16.05c-5.054.5-9 4.764-9 9.948V32h-5.002c-5.18 0-9.446 3.947-9.95 9H1V24.95c5.054-.5 9-4.764 9-9.948V10h5.002c5.18 0 9.446-3.947 9.95-9zm34.1 0H43v16.05c5.053.502 9 4.768 9 9.948V32h5.002c5.184 0 9.447 3.946 9.95 9H83V24.95c-5.053-.502-9-4.768-9-9.948V10h-5.002c-5.184 0-9.447-3.946-9.95-9zM50 50v7.002C50 61.42 46.42 65 42 65c-4.417 0-8-3.584-8-7.998V50h-7.002C22.58 50 19 46.42 19 42c0-4.417 3.584-8 7.998-8H34v-7.002C34 22.58 37.58 19 42 19c4.417 0 8 3.584 8 7.998V34h7.002C61.42 34 65 37.58 65 42c0 4.417-3.584 8-7.998 8H50z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+}
+.card:nth-child(24):before, .card:nth-child(24):after {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='12' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 12c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 10 12c1.67 0 3.182-.683 4.27-1.785A5.998 5.998 0 0 0 14 12h2a4 4 0 0 1 4-4V6c-1.67 0-3.182.683-4.27 1.785C15.905 7.22 16 6.622 16 6c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 20 6V4a4 4 0 0 1-4-4h-2c0 .622.095 1.221.27 1.785A5.982 5.982 0 0 0 10 0C8.33 0 6.818.683 5.73 1.785 5.905 1.22 6 .622 6 0H4a4 4 0 0 1-4 4v2c1.67 0 3.182.683 4.27 1.785A5.998 5.998 0 0 1 4 6c0-.622.095-1.221.27-1.785A5.982 5.982 0 0 1 0 6v2a4 4 0 0 1 4 4h2zm-4 0a2 2 0 0 0-2-2v2h2zm16 0a2 2 0 0 1 2-2v2h-2zM0 2a2 2 0 0 0 2-2H0v2zm20 0a2 2 0 0 1-2-2h2v2zm-10 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z' fill='%232c2d65' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+
+}
+
+.card:nth-child(25):before, .card:nth-child(25):after {
+  
+  background-image: url("data:image/svg+xml,%3Csvg width='38' height='38' viewBox='0 0 38 38' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='bevel-circle' fill='%23333366' fill-opacity='1'%3E%3Cpath d='M10.414 29l-8 8h33.172l-8-8H10.414zM9 27.586l-8 8V2.414l8 8v17.172zM10.414 9l-8-8h33.172l-8 8H10.414zM29 10.414l8-8v33.172l-8-8V10.414zM11 11h16v16H11V11zm8 14c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zM0 0h38v38H0V0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+ 
+}
+.card:nth-child(26):before, .card:nth-child(26):after {
+  background: radial-gradient(circle, midnightblue 0.75em, rgba(255, 255, 255, 0) 0.75em, rgba(255, 255, 255, 0) 1.5em, rgba(148, 188, 204, 0.7) 1.5em,midnightblue 1.8em, rgba(255, 255, 255, 0) 1.8em) 0 0, radial-gradient(circle, midnightblue 0.75em, rgba(255, 255, 255, 0) 0.75em, rgba(255, 255, 255, 0) 1.5em, midnightblue 1.5em, rgba(148, 163, 204, 0.7) 1.8em, rgba(255, 255, 255, 0) 1.8em) 3em 3em, radial-gradient(circle, midnightblue 0.375em, rgba(255, 255, 255, 0) 0.375em) 3em 0, radial-gradient(circle, midnightblue 0.3em, rgba(255, 255, 255, 0) 0.3em) 0 3em;
+  background-size: 6em 6em;
+ 
+  background-repeat: repeat;
+
+}
+.card:nth-child(27):before, .card:nth-child(27):after {
+  --c0: hsla(0, 0%, 0%, var(--p));
+  --c1: hsla(0, 0%, 0%, calc(1 - var(--p)));
+  background: linear-gradient(calc(var(--p) * 95deg), #2c2d65 1px, transparent 0, transparent calc(100% - 1px), #2c2d65 0) 50% 50%/0.35355em 0.35355em;
+  --m: repeating-linear-gradient(
+          5deg,
+          red 0,
+          red 0em,
+          transparent 0,
+          transparent 6em
+      ),
+      repeating-linear-gradient(
+          -180deg,
+          var(--c0) 0,
+          var(--c0) 1em,
+          var(--c1) 0,
+          var(--c1) 4em
+      );
+}
+.card:nth-child(28):before, .card:nth-child(28):after {
+  --c0: hsla(0, 0%, 0%, var(--p));
+  --c1: hsla(0, 0%, 0%, calc(1 - var(--p)));
+  background: linear-gradient(calc(var(--p) * 95deg), #2c2d65 1px, transparent 0, transparent calc(100% - 1px), #2c2d65 0) 50% 50%/0.35355em 0.35355em;
+  --m: repeating-linear-gradient(
+          5deg,
+          red 0,
+          red 0em,
+          transparent 0,
+          transparent 6em
+      ),
+      repeating-linear-gradient(
+          -45deg,
+          var(--c0) 0,
+          var(--c0) 1em,
+          var(--c1) 0,
+          var(--c1) 4em
+      );
+}
+.card:nth-child(29):before, .card:nth-child(29):after {
+  --c0: hsla(0, 0%, 0%, var(--p));
+  --c1: hsla(0, 0%, 0%, calc(1 - var(--p)));
+  background: linear-gradient(calc(var(--p) * 60deg), #2c2d65 1px, transparent 0, transparent calc(100% - 1px), #ada9e5 0) 50% 50%/0.14142em 0.14142em;
+  --m: repeating-linear-gradient(
+          90deg,
+          rgb(255, 0, 170) 0,
+          red 1em,
+          transparent 0,
+          transparent 2em
+      ),
+      repeating-linear-gradient(
+          -20deg,
+          var(--c0) 0,
+          var(--c0) -10em,
+          var(--c1) 0,
+          var(--c1) 0em
+      );
+      
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.card:nth-child(30):before, .card:nth-child(30):after {
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='20' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%232c2d65' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+

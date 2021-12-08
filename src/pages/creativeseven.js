@@ -219,7 +219,106 @@ export default function Creativeseven() {
         class="card"
 
       />
-      
+      <div
+        style={{
+        
+          backgroundColor: color,
+         
+          transition: "ease all 500ms"
+        }}
+        class="card"
+
+      />
+      <div
+        style={{
+        
+          backgroundColor: color,
+         
+          transition: "ease all 500ms"
+        }}
+        class="card"
+
+      />
+      <div
+        style={{
+        
+          backgroundColor: color,
+         
+          transition: "ease all 500ms"
+        }}
+        class="card"
+
+      />
+      <div
+        style={{
+        
+          backgroundColor: color,
+         
+          transition: "ease all 500ms"
+        }}
+        class="card"
+
+      />
+      <div
+        style={{
+        
+          backgroundColor: color,
+         
+          transition: "ease all 500ms"
+        }}
+        class="card"
+
+      />
+      <div
+        style={{
+        
+          backgroundColor: color,
+         
+          transition: "ease all 500ms"
+        }}
+        class="card"
+
+      />
+      <div
+        style={{
+        
+          backgroundColor: color,
+         
+          transition: "ease all 500ms"
+        }}
+        class="card"
+
+      />
+      <div
+        style={{
+        
+          backgroundColor: color,
+         
+          transition: "ease all 500ms"
+        }}
+        class="card"
+
+      />
+      <div
+        style={{
+        
+          backgroundColor: color,
+         
+          transition: "ease all 500ms"
+        }}
+        class="card"
+
+      />
+      <div
+        style={{
+        
+          backgroundColor: color,
+         
+          transition: "ease all 500ms"
+        }}
+        class="card"
+
+      />
       
     </div>
     <div className="more-btn display-flex align-center justify-center paddingxy-30">

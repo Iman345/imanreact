@@ -90,6 +90,7 @@ button.more-btn:hover{
   display: inline-block;
   font-weight: 400;
   position: sticky;
+  text-align: center;
   padding: .375rem .75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -98,6 +99,11 @@ button.more-btn:hover{
   position: sticky;
   top: 0;
 
+}
+.pagebtn:hover{
+
+  background-color: #a2e0ff;
+    border: 2px solid #fd7094;
 }
 
 

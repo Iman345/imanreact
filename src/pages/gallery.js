@@ -12,7 +12,7 @@ export const Gallery = () => {
          
             
         <SRLWrapper>
-            <div className="galleryimg" style={{width: "100%", display: 'flex', flexWrap: "wrap", height: "100vh"}}>
+            <div className="galleryimg" style={{width: "100%", display: 'flex', flexWrap: "wrap"}}>
                 <div style={{width: "25%", margin: 10 }}>
                     <img className="galleryimg" alt="Dome decoration of Selimiye Mosque in Turkey by Ihsan Gercelman "
                     src={require('../images/image1.jpeg').default} style={{width: "100%"}} />

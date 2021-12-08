@@ -10,7 +10,7 @@ function Theorythree() {
 
     return (
         <div>
-            <div className="three"><h1 className="page-header"></h1>Technical Reflection</div>
+            <div className="three"><h1 className="page-header">Technical Reflection</h1></div>
 
 
 
