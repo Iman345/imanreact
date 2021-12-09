@@ -12,9 +12,7 @@ function Creative() {
         <div className="creative-blogs comp-space" id="Creative">
           <div className="creative-section">
             <h1 className="heading">My Creative Blogs!</h1>
-            <p className="creative-p">
-             Read about my internet art.
-            </p>
+            
            
           </div>
            <div className="container">
@@ -182,24 +180,37 @@ function Creative() {
                          <div className="creative-log absolute">
                          <h5 className="creative-text">Final Creative Reflection</h5>
                          <h4 className="creative-text">The final thoughts on the website's design</h4>
-                         <Link to="/gallery">
+                         <Link to="/creativereflection">
+            <button className="creative-btn">Read More</button>
+                    </Link>
+                         </div>
+                     </div>
+                     
+                 </div>
+                 
+    
+                 <div className="col-3">
+                     <div className="creative-box pointer relative">
+                         <div className="creative-box__img pointer relative">
+                             <div className="creative-img-box">
+                                 <img src={Bg1} alt="" className="creative-img" />
+                             </div>
+                             <div className="mask"></div>
+                         </div>
+                         <div className="creative-log absolute">
+                         <h5 className="creative-text">Internet Art Rationale</h5>
+                         <h4 className="creative-text">Discussing my final internet art</h4>
+                         <Link to="/creativeeight">
             <button className="creative-btn">Read More</button>
                     </Link>
                          </div>
                      </div>
                  </div>
-    
 
 
 
 
-
-                 <div className="more-btn display-flex align-center justify-center paddingxy-30">
-                
-                 <Link to="/theory">
-            <button className="go-btn pointer">Go Theory</button>
-                    </Link>
-                 </div>
+                 
     
                </div>
            </div>

@@ -69,11 +69,11 @@ Islamic geometric art, calligraphy and vegetal patterns all make up the non-figu
             </div>
             <div className="more-btn display-flex align-center justify-center paddingxy-30">
                 
-                <Link to="/theoryseven">
+                <Link to="/theoryeight">
            <button className="more-btn pointer btn">Back</button>
                    </Link>
                    
-                   <Link to="/theorynine">
+                   <Link to="/theoryten">
            <button className="pagebtn pointer btn">Next</button>
                    </Link>
                 </div>

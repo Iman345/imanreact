@@ -44,11 +44,11 @@ Internet art cannot be viewed, displayed, or even documented the same as an oil 
             </div>
             <div className="more-btn display-flex align-center justify-center paddingxy-30">
                 
-                <Link to="/theoryeight">
+                <Link to="/theoryseven">
            <button className="more-btn pointer btn">Back</button>
                    </Link>
                    
-                   <Link to="/theoryone">
+                   <Link to="/theoryeight">
            <button className="pagebtn pointer btn">Next</button>
                    </Link>
                 </div>

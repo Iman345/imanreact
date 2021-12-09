@@ -8,17 +8,22 @@ import { Link } from "react-router-dom";
 export default function Creativeseven() {
   const [color, setColor] = useState("#ff0000");
   return (
-    
+    <div>
+    <div className="three"><h1 className="page-header">My Final Internet Art</h1></div>
+    <p className="creative-p">This is my collection of CSS made patterns, you can change the colours using the colour picker on the left or enter a HEX or RGB value to change the colour. Enjoy!</p>
+
+
     <div>
         <div className="colourpicker">
       <SketchPicker
         color={color}
         onChangeComplete={color => {
           setColor(color.hex);
+          
         }}
       />
       </div>
-     <div className="patterns">
+     <div className="patterns" >
       <div
         style={{
 
@@ -332,7 +337,7 @@ export default function Creativeseven() {
                    </Link>
                 </div>
     </div>
-    
+    </div>
     
   );
 }

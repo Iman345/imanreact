@@ -27,6 +27,9 @@ import Creativeseven from './pages/creativeseven';
 import { Gallery } from './pages/gallery';
 import Theorynine from './pages/theorynine';
 import ScrollToTop from './Components/ScrollToTop';
+import TheoryTen from './pages/theoryten'
+import CreativeEight from './pages/creativeieght';
+import CreativeReflection from './pages/creativereflection';
 
 
 
@@ -77,6 +80,9 @@ function App() {
 <Route exact path="creativeseven" element={<Creativeseven />} />
 <Route exact path="gallery" element={<Gallery />} />
 <Route exact path="theorynine" element={<Theorynine />} />
+<Route exact path="theoryten" element={<TheoryTen />} />
+<Route exact path="creativeeight" element={<CreativeEight />} />
+<Route exact path="creativereflection" element={<CreativeReflection />} />
 </Routes>
 
 

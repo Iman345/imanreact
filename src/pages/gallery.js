@@ -8,6 +8,12 @@ export const Gallery = () => {
     return (
 <div>
     <h1 className="page-header">Gallery</h1>
+   
+    <p className="creative-p"> Click on any image to view the gallery in fullscreen as a slideshow or download the image.
+                           
+                           
+                              </p>
+                            
         <div className="image-gallery"> 
          
             

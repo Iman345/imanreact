@@ -20,6 +20,7 @@
     grid-gap: 2em;
     place-content: center;
     margin: auto;
+    margin-left: 50px;
     min-height: 100vh;
     background: rgb(255, 255, 255);
   }
